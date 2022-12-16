@@ -1,0 +1,74 @@
+.displayed-art-container {
+  background-color: black;
+  display: block;
+  position: relative;
+}
+.displayed-art {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 60vh; */
+  /* width: 100%; */
+  width: 100vh;
+}
+.displayed-art-title {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  color: white;
+  font-size: 3vh;
+  text-transform: uppercase;
+}
+
+.displayed-art-subtitle {
+  font-size: 1.5vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.displayed-art-title h2,
+.displayed-art-title h6 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.slides-container {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slides {
+  flex-shrink: 1;
+  width: auto;
+  max-height: 10vh;
+
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+}
+
+.slides-center {
+  width: auto;
+  max-height: 15vh;
+
+  border-radius: 2px;
+  box-shadow: 0px 0px 2px 2px rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 810px) {
+  .displayed-art {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 811) {
+  .displayed-art {
+    width: 100vh;
+  }
+}
