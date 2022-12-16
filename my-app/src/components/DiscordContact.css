@@ -1,0 +1,26 @@
+.DiscordContact {
+  position: absolute;
+  right: 0px;
+  padding: 20px;
+  z-index: 5;
+}
+
+.DiscordContact h1 {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 2.5vh;
+}
+
+@media only screen and (max-width: 475px) {
+  .DiscordContact h1 {
+    display: block;
+  }
+}
+@media only screen and (min-width: 476px) {
+  .DiscordContact h1 {
+    display: inline;
+  }
+}

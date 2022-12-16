@@ -1,0 +1,14 @@
+.TopNavbar {
+  position: absolute;
+  padding: 20px;
+  z-index: 5;
+}
+
+.TopNavbar h1 {
+  display: inline;
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+  cursor: pointer;
+  font-size: 2.5vh;
+}
