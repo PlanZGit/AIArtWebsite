@@ -7,8 +7,13 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   height: 60vh;
-  /* width: 100%; */
+  /* width: inherit; */
+
+  /* background-position: top;
+  background-size: cover; */
+
   /* width: 100vh; */
 }
 .displayed-art-title {
