@@ -12,7 +12,7 @@ export default class Galleries extends React.Component {
 
   render() {
     return (
-      <section className="Galleries">
+      <section className="Galleries" id="Galleries">
         <h1>Galleries</h1>
       </section>
     );

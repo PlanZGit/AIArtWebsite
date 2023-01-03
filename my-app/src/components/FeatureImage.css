@@ -1,21 +1,23 @@
-.displayed-art-container {
-  background-color: black;
+.FeatureImage {
   display: block;
+  background-color: black;
   position: relative;
+  height: 60vh;
 }
+
 .displayed-art {
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   height: 60vh;
-  /* width: inherit; */
-
-  /* background-position: top;
-  background-size: cover; */
-
-  /* width: 100vh; */
+  transition: 0.15s;
 }
+
+/* .displayed-art:hover {
+  height: 70vh;
+  transition: 0.25s;
+} */
+
 .displayed-art-title {
   position: absolute;
   top: 60%;

@@ -1,4 +1,6 @@
 body {
+  background-color: rgb(26, 26, 26);
+  /* background-color: white; */
   height: 2000px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -11,4 +13,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color: black;
+  color: white;
+}
+a {
+  color: black;
+  color: white;
+}
+text {
+  color: black;
+  color: white;
 }

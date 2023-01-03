@@ -12,7 +12,7 @@ export default class FeatureImage extends React.Component {
 
   currentImageDisplay = (event) => {
     //clear
-    let x = document.getElementById("displayed-art");
+    let x = document.getElementById("displayed-art-container");
     x.innerHTML = "";
 
     //set new
@@ -34,8 +34,8 @@ export default class FeatureImage extends React.Component {
     ));
 
     return (
-      <section className="displayed-art-container">
-        <div id="displayed-art">
+      <section className="FeatureImage" id="FeatureImage">
+        <div id="displayed-art-container">
           <img
             src={data.armorCat[0]}
             alt="displayed-art"
