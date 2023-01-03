@@ -6,6 +6,7 @@ export default function DiscordContact() {
     <nav className="DiscordContact">
       <h1>
         <a
+          rel="noreferrer"
           href={"https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F"}
           target={"_blank"}
         >
