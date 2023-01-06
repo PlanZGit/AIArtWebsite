@@ -1,6 +1,6 @@
 import React from "react";
 import "./FeatureImage.css";
-import { data } from "../images/images.js";
+import { images } from "../images/images.js";
 
 export default class FeatureImage extends React.Component {
   constructor(props) {
@@ -23,7 +23,7 @@ export default class FeatureImage extends React.Component {
     x.appendChild(newIMG);
   };
   render() {
-    const slides = data[this.state.theme].map((i) => (
+    const slides = images[this.state.theme].map((i) => (
       <img
         src={i}
         alt="slides-displayed-art"
@@ -37,7 +37,7 @@ export default class FeatureImage extends React.Component {
       <section className="FeatureImage" id="FeatureImage">
         <div id="displayed-art-container">
           <img
-            src={data.armorCat[0]}
+            src={images.armorCat[0]}
             alt="displayed-art"
             className="displayed-art"
           ></img>
