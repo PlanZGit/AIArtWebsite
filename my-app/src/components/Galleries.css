@@ -19,9 +19,11 @@
   justify-content: space-around;
 }
 
+.galleries-sub-container {
+  width: 30vmax;
+  margin: 10px;
+}
+
 .galleries-container img {
-  /* FIX - do not change the image size , change co0ntainer size */
-  max-width: 20vmax;
-  max-height: 30vmax;
-  margin-bottom: 50px;
+  width: 100%;
 }

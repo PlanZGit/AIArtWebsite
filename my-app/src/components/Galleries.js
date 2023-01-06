@@ -5,9 +5,6 @@ import { images } from "../images/images.js";
 export default class Galleries extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      theme: "armorCat",
-    };
   }
 
   render() {
@@ -30,5 +27,11 @@ const ImagePreview = (props) => {
   //return preview of first image
 
   //CREATE onclick, pass to FeatureImage
-  return <img src={images[props.imageArray][0]}></img>;
+
+  return (
+    <div className="galleries-sub-container">
+      <img src={images[props.imageArray][0]} className={props.imageArray}></img>
+      ;
+    </div>
+  );
 };
