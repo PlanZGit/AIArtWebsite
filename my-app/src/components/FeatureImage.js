@@ -3,13 +3,6 @@ import "./FeatureImage.css";
 import { images } from "../images/images.js";
 
 export default class FeatureImage extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      theme: "armorCat",
-    };
-  }
-
   currentImageDisplay = (event) => {
     //clear
     let x = document.getElementById("displayed-art-container");
@@ -23,7 +16,7 @@ export default class FeatureImage extends React.Component {
     x.appendChild(newIMG);
   };
   render() {
-    const slides = images[this.state.theme].map((i) => (
+    const slides = images[this.props.theme].map((i) => (
       <img
         src={i}
         alt="slides-displayed-art"

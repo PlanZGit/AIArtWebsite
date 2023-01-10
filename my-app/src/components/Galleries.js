@@ -3,14 +3,15 @@ import "./Galleries.css";
 import { images } from "../images/images.js";
 
 export default class Galleries extends React.Component {
-  constructor(props) {
-    super(props);
-  }
+  //Pass key string in object images to ImagePreview component
 
   render() {
-    //Pass key string in object images to ImagePreview component
     const galleriesSubContainer = Object.keys(images).map((i) => (
-      <ImagePreview key={i} imageArray={i}></ImagePreview>
+      <ImagePreview
+        key={i}
+        imageArray={i}
+        handleFeatureImage={this.props.handleFeatureImage}
+      ></ImagePreview>
     ));
 
     return (
@@ -30,7 +31,12 @@ const ImagePreview = (props) => {
 
   return (
     <div className="galleries-sub-container">
-      <img src={images[props.imageArray][0]} className={props.imageArray}></img>
+      <img
+        src={images[props.imageArray][0]}
+        className={props.imageArray}
+        alt={props.imageArray}
+        onClick={props.handleFeatureImage}
+      ></img>
       ;
     </div>
   );
