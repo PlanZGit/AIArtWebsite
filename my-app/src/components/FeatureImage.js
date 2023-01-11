@@ -3,36 +3,32 @@ import "./FeatureImage.css";
 import { images } from "../images/images.js";
 
 export default class FeatureImage extends React.Component {
-  currentImageDisplay = (event) => {
-    //clear
-    let x = document.getElementById("displayed-art-container");
-    x.innerHTML = "";
-
-    //set new
-    let newIMG = document.createElement("img");
-    newIMG.src = event.target.src;
-    newIMG.className = "displayed-art";
-
-    x.appendChild(newIMG);
+  handleDisplay = (event) => {
+    let displayArt = document.getElementById("displayed-art");
+    displayArt.src = event.target.src;
   };
+
   render() {
     const slides = images[this.props.theme].map((i) => (
       <img
         src={i}
         alt="slides-displayed-art"
         className="slides"
-        onClick={this.currentImageDisplay}
+        onClick={this.handleDisplay}
         key={i}
       ></img>
     ));
 
+    let x = images[this.props.theme][0];
+    console.log(x);
     return (
       <section className="FeatureImage" id="FeatureImage">
-        <div id="displayed-art-container">
+        <div className="displayed-art-container" id="displayed-art-container">
           <img
-            src={images.armorCat[0]}
+            src={x}
             alt="displayed-art"
             className="displayed-art"
+            id="displayed-art"
           ></img>
         </div>
 

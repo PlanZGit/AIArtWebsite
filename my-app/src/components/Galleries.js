@@ -10,7 +10,7 @@ export default class Galleries extends React.Component {
       <ImagePreview
         key={i}
         imageArray={i}
-        handleFeatureImage={this.props.handleFeatureImage}
+        handleTheme={this.props.handleTheme}
       ></ImagePreview>
     ));
 
@@ -35,9 +35,8 @@ const ImagePreview = (props) => {
         src={images[props.imageArray][0]}
         className={props.imageArray}
         alt={props.imageArray}
-        onClick={props.handleFeatureImage}
+        onClick={props.handleTheme}
       ></img>
-      ;
     </div>
   );
 };
