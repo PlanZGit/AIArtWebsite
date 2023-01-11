@@ -27,8 +27,8 @@ export default class FeatureImage extends React.Component {
     ));
 
     return (
-      <section className="FeatureImage" id="FeatureImage">
-        <div id="displayed-art-container">
+      <section className="FeatureImage">
+        <div className="displayed-art-container" id="displayed-art-container">
           <img
             src={images.armorCat[0]}
             alt="displayed-art"

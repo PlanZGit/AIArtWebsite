@@ -14,16 +14,38 @@
 }
 
 .galleries-container {
+  /* width: 0px; */
+  width: 100vw;
+  height: 1500px;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
 }
 
 .galleries-sub-container {
-  width: 30vmax;
+  width: 23vmax;
+  overflow: hidden;
   margin: 10px;
 }
 
 .galleries-container img {
   width: 100%;
+  transition: 0.3s;
+}
+
+.galleries-container img:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 428px) {
+  .galleries-container {
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .galleries-container {
+    height: 130vw;
+  }
 }

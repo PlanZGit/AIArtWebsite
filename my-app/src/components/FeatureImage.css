@@ -5,18 +5,17 @@
   height: 60vh;
 }
 
+.displayed-art-container {
+  height: 60vh;
+}
+
 .displayed-art {
+  height: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 60vh;
   transition: 0.15s;
 }
-
-/* .displayed-art:hover {
-  height: 70vh;
-  transition: 0.25s;
-} */
 
 .displayed-art-title {
   position: absolute;
@@ -83,14 +82,12 @@
 
 @media only screen and (max-width: 428px) {
   .displayed-art {
-    height: auto;
     width: 100%;
   }
 }
 
 @media only screen and (max-width: 810) {
   .displayed-art {
-    height: auto;
     width: 100%;
   }
 }

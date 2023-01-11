@@ -11,9 +11,9 @@ export default class App extends React.Component {
     this.state = {
       theme: "armorCat",
     };
-    this.handleFeatureImage = this.handleFeatureImage.bind(this);
+    this.handleTheme = this.handleTheme.bind(this);
   }
-  handleFeatureImage(event) {
+  handleTheme(event) {
     this.setState({
       theme: event.target.className,
     });
@@ -25,7 +25,7 @@ export default class App extends React.Component {
           <TopNavbar />
           <DiscordContact />
           <FeatureImage theme={this.state.theme} />
-          <Galleries handleFeatureImage={this.handleFeatureImage} />
+          <Galleries handleTheme={this.handleTheme} />
         </header>
       </div>
     );
