@@ -1,4 +1,4 @@
-# React-AI-Art
+# AIArtWebsite
 Use React and vanilla css
 Need to install modules to run
 
