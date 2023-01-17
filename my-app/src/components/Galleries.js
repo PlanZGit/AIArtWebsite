@@ -24,11 +24,6 @@ export default class Galleries extends React.Component {
 }
 
 const ImagePreview = (props) => {
-  //props.imageArray Typeof is string
-  //return preview of first image
-
-  //CREATE onclick, pass to FeatureImage
-
   return (
     <div className="galleries-sub-container">
       <img
