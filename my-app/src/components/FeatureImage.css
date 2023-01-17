@@ -42,13 +42,12 @@
 
 .slides-container {
   display: flex;
-  /* align-items: flex-end; */
   align-items: center;
   justify-content: center;
-  gap: 15px;
 
-  width: 90vw;
-
+  height: 16vh;
+  width: 95vw;
+  overflow: scroll;
   /* overscroll-behavior-x: auto; */
 
   position: absolute;
@@ -59,11 +58,8 @@
 
 .slides {
   flex-shrink: 1;
-  width: auto;
   max-height: 10vmin;
-
-  /* border-radius: 10px; */
-  /* fix shadow box */
+  margin-left: 10px;
   cursor: pointer;
   box-shadow: -1px -1px 5px 2px rgb(255, 255, 255);
   transition: 0.55s;
@@ -71,8 +67,6 @@
 
 .slides:hover {
   flex-shrink: 1;
-  /* width: auto; */
-  /* max-height: 15vh; */
   max-height: 15vh;
   transition: 0.55s;
 }
@@ -88,12 +82,6 @@
 @media only screen and (max-width: 428px) {
   .displayed-art {
     width: 100%;
-  }
-  .slides-container {
-    overflow: scroll;
-  }
-  .slides {
-    box-shadow: none;
   }
 }
 
