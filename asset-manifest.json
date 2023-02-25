@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ArtWebPage/static/css/main.bc6c91ac.css",
+    "main.css": "/ArtWebPage/static/css/main.a3c23b46.css",
     "main.js": "/ArtWebPage/static/js/main.d4459c90.js",
     "static/media/XSlayer300_Personification_of_848.png": "/ArtWebPage/static/media/XSlayer300_Personification_of_848.0fcec7a9208bac7a3348.png",
     "static/media/Penta_ultra-s9d91a1.png": "/ArtWebPage/static/media/Penta_ultra-s9d91a1.bf3e969c4afca5126e34.png",
@@ -66,11 +66,11 @@
     "static/media/Ssenmad_tattoo_79-42d9-b02f-0faaba3ba648.png": "/ArtWebPage/static/media/Ssenmad_tattoo_79-42d9-b02f-0faaba3ba648.07a2023550045840e1de.png",
     "static/media/grid_0-4.webp": "/ArtWebPage/static/media/grid_0-4.dbf60f071ed259c096a2.webp",
     "index.html": "/ArtWebPage/index.html",
-    "main.bc6c91ac.css.map": "/ArtWebPage/static/css/main.bc6c91ac.css.map",
+    "main.a3c23b46.css.map": "/ArtWebPage/static/css/main.a3c23b46.css.map",
     "main.d4459c90.js.map": "/ArtWebPage/static/js/main.d4459c90.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc6c91ac.css",
+    "static/css/main.a3c23b46.css",
     "static/js/main.d4459c90.js"
   ]
 }
