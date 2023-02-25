@@ -1,10 +1,10 @@
+# ArtWebPage
 
-About the Website:
+Static Webpage. The purpose of this webpage design was meant for the MidJourney Community Page. A website about the MidJourney Community already exist https://midjourney.com/
 
-The Purpose of the site is meant for self learning in writing websites using React.
-The design was meant for the MidJourney Community Page.
-A website about the company already exist.
-MidJourney website is https://midjourney.com/
+Works on Firefox, Chrome, and Edge.
+
+- Visit https://planzgit.github.io/ArtWebPage/
 
 Made with React and vanilla css.
 
