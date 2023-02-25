@@ -47,7 +47,7 @@
 
   height: 16vh;
   width: 95vw;
-  overflow: scroll;
+  /* overflow: scroll; */
   /* overscroll-behavior-x: auto; */
 
   position: absolute;
